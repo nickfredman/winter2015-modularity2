@@ -1,1 +1,23 @@
 /* ADD YOUR STYLES HERE */
+* {
+  box-sizing: border-box;
+}
+
+/*Number 6*/
+.inline-spaced > * {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+ /*Number 7*/
+ .vertically-spaced > * {
+  margin: 10% 0;
+ }
+
+/*Number 8*/
+.horizontal-list > * {
+  display:inline-block;
+  /*So the spacing matches the example*/
+  margin:-2px;
+}
