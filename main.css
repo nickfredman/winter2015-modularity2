@@ -17,7 +17,149 @@
 
 /*Number 8*/
 .horizontal-list > * {
-  display:inline-block;
+  display: inline-block;
   /*So the spacing matches the example*/
-  margin:-2px;
+  margin: -2px;
+}
+
+/*Number 9*/
+.buttons {
+  background: #f97883;
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+.button-big {
+  height: 70px;
+  line-height: 70px;
+  width: 200px;
+  font-size: 1.6em;
+}
+
+.button-medium {
+  height: 40px;
+  line-height: 40px;
+  width: 160px;
+}
+
+.button-small {
+  height: 25px;
+  line-height: 25px;
+  width: 36px;
+  font-size: .8em;
+}
+
+/*Number 10*/
+.nav-style {
+  background: #f97883;
+  width: 760px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding: 0;
+}
+
+.nav-menu-items > * {
+  background: #f97883;
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.nav-menu-items a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.nav-menu-items a:hover {
+  background: #9C484F;
+}
+
+/*Number 11*/
+.pagination {
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.pagination li {
+  display: block;
+  border-bottom: solid 3px #f97883;
+  float: left;
+  margin: 0 5px;
+  padding-bottom: 5px;
+  width: 30px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #f97883;
+}
+
+.pagination li:first-child,
+.pagination li:last-child {
+  border: none;
+}
+
+.pagination .current-page {
+  color: #cccccc;
+  border-color: #cccccc;
+}
+
+/*Number 12*/
+.comment-box {
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.image-left {
+  float: left;
+  margin-right: 10px;
+}
+
+/*Number 13*/
+.tab-items {
+  /*height: 350px;*/
+  margin: 0;
+  padding: 0;
+}
+
+.tab-items li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  margin-bottom: -1px;
+}
+
+.tab-items a {
+  display: block;
+  text-decoration: none;
+  color: #4400fc;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+}
+
+.tab-text {
+  background: #fff;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.selected-tab a {
+  border-bottom: 1px solid white;
 }
